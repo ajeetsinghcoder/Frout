@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#fresh{
+    color: rgba(72, 0, 108, 0.8);;;
+    margin: 10px;
+    text-align: right;
+    margin-right: 80%;
+}
+
+.input-container{
+    position: absolute;
+    top: 10px;
+    right: 10%;
+}
+
+/* nav */
+
+ul{
+    list-style-type: none;
+    background-color: rgba(107, 0, 161, 0.8);
+    color:orange;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 30px;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+ul li:hover{
+    background-color: rgb(54, 173, 54);
+}
+
+.drop{
+    display: none;
+}
+ul li:hover .drop{
+    display: block;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 13px;
+}
+.drop ul{
+    margin: 0;
+    padding: 0;
+}
+
+.drop ul li{
+    display: block;
+}
+
+/* menu */
+.menu{
+    display: none;
+}
+ul li:hover .menu{
+    display: block;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 13px;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    display: block;
+}
+
+/* account */
+
+.Account{
+    display: none;
+}
+ul li:hover .Account{
+    display: block;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 13px;
+}
+.Account ul{
+    margin: 0;
+    padding: 0;
+}
+
+.Account ul li{
+    display: block;
+}
+
+/* Acco */
+
+.acco{
+    display: none;
+}
+.Account ul li:hover .acco{
+    display: block;
+    position: absolute;
+    margin-left: 56px;
+    margin-top: -29px;
+}
+
+/* circle */
+
+h2{
+    color: rgba(107, 0, 161, 0.8);;;
+    margin: 20px;
+    gap: 10px;
+}
+p{
+    color: black;
+    margin: 20px;
+    gap: 10px;  
+}
+
+.shop{
+    background-color: rgba(73, 2, 108, 0.8);;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.circle{
+    display: flex; 
+    height: 20vh;
+    margin: 0;
+    background-color: rgba(80, 1, 119, 0.908);;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transform: translateY(-50%);
+    /* right: 20px; */
+    left: 1050px;
+    border-radius: 50%;
+    /* margin: 80px; */
+    top: 255px;
+}
+.div{
+    position: absolute;
+    display: flex;
+    left: 1090px;
+    top: 395px;
+    background-color: rgba(58, 0, 87, 0.8);;
+    border-color: black;
+    color: black;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.name{
+    position: absolute;
+    display: flex;
+    left: 1095px;
+    top: 355px;
+    color: black;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.img{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 1075px;
+    top: 160px;
+}
+.Img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 720px;
+    top: 310px;
+}
+
+.clowd{
+    display: flex; 
+    height: 20vh;
+    margin: 0;
+    /* background-color: rgb(0, 149, 0); */
+    width: 50%;
+    height: 250px;
+    position: absolute;
+    transform: translateY(-50%);
+    /* right: 20px; */
+    /* left: 1050px; */
+    /* border-radius: 2%; */
+    bottom: -150px;
+    border-left: 0px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgba(107, 0, 161, 0.8);;
+}
